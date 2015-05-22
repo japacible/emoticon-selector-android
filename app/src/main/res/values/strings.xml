@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Emoticon Selector</string>
+
+    <!-- Actions -->
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Selector</string>
+    <string name="notification_message">Show emoticons.</string>
+</resources>
