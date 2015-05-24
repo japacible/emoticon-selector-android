@@ -2,25 +2,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2e85a6"
+    android:background="#efefef"
     android:gravity="center|bottom"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
     <Button
         android:id="@+id/startBtn"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center"
+        android:layout_height="80dp"
         android:text="@string/action_start" />
 
     <Button
         android:id="@+id/stopBtn"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center"
+        android:layout_height="80dp"
         android:text="@string/action_stop" />
 
 </LinearLayout>

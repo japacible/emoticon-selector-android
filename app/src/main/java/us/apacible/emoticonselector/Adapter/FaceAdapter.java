@@ -42,6 +42,7 @@ public class FaceAdapter extends BaseAdapter {
 
         tv.setText(facesArray[position]);
         tv.setPadding(10, 10, 10, 10);
+        tv.setElevation(5);
         return tv;
     }
 
